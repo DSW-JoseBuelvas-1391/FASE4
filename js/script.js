@@ -14,7 +14,6 @@ function procesarRespuestas() {
                 if (myForm ["r+i"].value === respuestasCorrectas[i - 1])
                 puntos++;
         }
-
     }
     let resultado = document.getElementById('resultado')
     resultado.innerHTML='Obtuviste'+puntos+'punstos de'+ total+' posibles';
