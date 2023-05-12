@@ -14,6 +14,6 @@ function procesarRespuestas() {
         }
     }
     let resultado = document.getElementById('resultado')
-    resultado.innerHTML='Obtuviste'+puntos+'punstos de'+ total+' posibles';
+    resultado.innerHTML='Obtuviste'+puntos+'puntos de'+ total+' posibles';
     return false;
 }
