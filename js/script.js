@@ -1,8 +1,8 @@
 function procesarRespuestas() {
-    let total = 3;
+    let total = 5;
     let puntos = 0;
     let myForm = document.forms["formulario"];
-    let respuestasCorrectas = ["c", "a", "b"];
+    let respuestasCorrectas = ["c", "a", "b","a","c"];
     for (let i = 1; i <= total; i++) {
       // Se debe utilizar la comparación estricta (triple igual) en lugar de la comparación débil (doble igual).
       if (myForm["r" + i].value === null || myForm["r" + i].value === "") {
