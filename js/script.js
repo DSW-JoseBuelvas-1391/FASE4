@@ -19,3 +19,4 @@ function procesarRespuestas() {
     resultado.innerHTML = "Obtuviste " + puntos + " puntos de " + total + " posibles";
     return false;
   }
+  
