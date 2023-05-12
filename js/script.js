@@ -4,7 +4,6 @@ function procesarRespuestas() {
     
     let myForm = document.forms["formulario"];
     let respuestasCorrectas= ["c","a","b"];
-
     for (let i=1;i <=total;i++){
         if (myForm["r"+ i].value== null||
             myForm["r"+ i].value== '' ){
