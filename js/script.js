@@ -1,4 +1,4 @@
-function procesarRespuetas() {
+function procesarRespuestas() {
     let total=3;
     let puntos=0;
     
